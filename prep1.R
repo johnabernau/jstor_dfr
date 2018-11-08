@@ -22,7 +22,7 @@ final_data <- NULL
 
 # Using the xml2 package: for each file, extract metadata and append row to final_data
 for (x in files){
-  path <- read_xml(paste0(path1, "/", x))
+  path <- read_xml(paste0(path, "/", x))
   
   # File name
   file <- x
