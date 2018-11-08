@@ -14,15 +14,15 @@ require(plyr)
 require(dplyr)
 
 # Identify path to metadata folder and list files
-path <- "/Users/jberna5/Desktop/ASR JSTOR/metadata"
-files <- list.files(path)
+path1 <- "/Users/jberna5/Desktop/ASR JSTOR/metadata"
+files <- list.files(path1)
 
 # Initialize empty set
 final_data <- NULL
 
 # Using the xml2 package: for each file, extract metadata and append row to final_data
 for (x in files){
-  path <- read_xml(paste0(path, "/", x))
+  path <- read_xml(paste0(path1, "/", x))
   
   # File name
   file <- x
