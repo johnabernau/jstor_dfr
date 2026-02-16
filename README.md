@@ -1,5 +1,5 @@
 # Text Analysis with JSTOR Archives
-Supplementary materials for manuscript "Text Analysis with JSTOR Archives", published 2018 in *Socius: Sociological Research for a Dynamic World* (https://doi.org/10.1177/2378023118809264).
+Accompanying materials for manuscript "Text Analysis with JSTOR Archives", published 2018 in *Socius: Sociological Research for a Dynamic World* (https://doi.org/10.1177/2378023118809264).
 
 The following R code walks through the preparation of the data and plotting of the figure in the main text of the article. JSTOR provides instructions on creating and requesting a dataset (https://www.jstor.org/dfr/about/creating-datasets), and the following code will require access to the two delivered folders: “metadata” and “ngram1”. 
 
